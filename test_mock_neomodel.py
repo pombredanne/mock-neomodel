@@ -56,4 +56,3 @@ def test_inherited_class_has_separate_index():
     assert not Bird.index.search(name='borris')
     assert Sparrow.index.search(name='borris')
     assert Bird.index.search(name='trevor')
-    import ipdb; ipdb.set_trace()
