@@ -1,2 +1,10 @@
-.venv
-*.pyc
+venv
+*~
+*.py[co]
+*.egg
+*.egg-info
+*.s??
+.DS_Store
+\#*#
+.\#*
+
